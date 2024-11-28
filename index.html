@@ -33,7 +33,7 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="md:max-w-[1170px] mx-auto sm:m-4">
+    <header class="max-w-[1170px] mx-auto">
       <!-- Navbar Section -->
       <div class="navbar bg-base-100">
         <div class="navbar-start space-x-20">
@@ -44,7 +44,11 @@
             Rinterio
           </a>
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost bg-[#dbd6d6] rounded-full p-3  lg:hidden">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost bg-[#dbd6d6] rounded-full p-3 lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -81,7 +85,7 @@
             <li><a class="text-[#737373]">Contact Us</a></li>
           </ul>
         </div>
-        
+
         <div class="navbar-end hidden space-x-5 lg:flex">
           <i
             class="fa-solid fa-magnifying-glass bg-[#dbd6d6] rounded-full p-2"
@@ -90,10 +94,39 @@
             class="fa-solid fa-cart-shopping bg-[#dbd6d6] rounded-full p-2"
           ></i>
           <a class="btn bg-[#ABEF5F] font-bold rounded-full"
-            >Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full p-1"></i
+            >Book Consult
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full p-1"
+            ></i
           ></a>
         </div>
       </div>
+
+      <!-- Banner Section -->
+      <section class="mt-10 space-y-7 text-center">
+        <img
+          src="./assets/banner.png"
+          alt=""
+          class="mx-auto md:max-w-[575px] max-w-[265px]"
+        />
+        <div class="max-w-80 md:max-w-4xl mx-auto space-y-7">
+          <h1 class="text-[#212121] md:text-5xl sm:text-3xl font-bold">
+            A barn house of this design has a <br />
+            striking appearance
+          </h1>
+          <p class="text-[#494949]">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <button class="btn rounded-full bg-[#ABEF5F80] text-lg font-bold">
+            View Details
+            <i
+              class="fa-solid fa-arrow-right -rotate-45 text-black bg-[#ABEF5F] rounded-full p-1"
+            ></i>
+          </button>
+        </div>
+      </section>
     </header>
 
     <main></main>
